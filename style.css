@@ -1,0 +1,132 @@
+/*style css*/
+h1 {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 30 px;
+  color: #322E18;
+}
+
+h2, h3, p, i {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #322E18;
+  opacity: 0.9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #322E18
+}
+
+a:hover {
+  color: #544D28
+}
+
+body {
+  background-color: #D7FCD4
+}
+
+footer {
+   background-color: #D7FCD4
+   color: #A89B8C;
+}
+
+table {
+  font-height: 1.6em;
+}
+
+img {
+  max-width: 200px;
+}
+
+td > p, td > h3 {
+  margin-left: 10px;
+}
+/* Cards : simple components */
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*Advanced style*/
+
+.btn-maroon {
+  background-color: #A89B8C;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-maroon:hover{
+  background-color: #A88B6A;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i {
+  display: inline-block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.links {
+  max-height: : 100px;
+}
+
+#movies {
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img {
+  width: 80px;
+}
+#movies td {
+  padding: 10px;
+}
+/*Responsiveness*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+    margin: 20px auto;
+  }
+}
+
