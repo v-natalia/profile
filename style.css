@@ -1,15 +1,24 @@
 /*style css*/
 h1 {
   font-family: 'Sarabun', sans-serif;
-  font-weight: 30 px;
+  font-weight: 25 px;
   color: #322E18;
 }
 
-h2, h3, p, i {
+h2 {
   font-family: 'Nunito Sans', sans-serif;
   color: #322E18;
   opacity: 0.9;
+  font-weight: 18 px;
 }
+
+h3, p, i {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #322E18;
+  opacity: 0.9;
+  font-weight: 15 px;
+}
+
 
 ul {
   list-style-type: none;
@@ -38,6 +47,7 @@ table {
 
 img {
   max-width: 200px;
+  max-height: 250px;
 }
 
 td > p, td > h3 {
@@ -55,8 +65,8 @@ td > p, td > h3 {
 
 .card {
   background: white;
-  padding: 25px;
-  margin-bottom: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
 }
@@ -81,7 +91,7 @@ td > p, td > h3 {
 
 .list-inline li {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 
 .list-inline li i {
