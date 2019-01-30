@@ -63,14 +63,14 @@ td > p, td > h3 {
 
 /*Advanced style*/
 
-.btn-maroon {
+.btn-brown {
   background-color: #A89B8C;
   color: white;
-  padding: 20px;
+  padding: 5px;
   border-radius: 5px;
 }
 
-.btn-maroon:hover{
+.btn-brown:hover{
   background-color: #A88B6A;
   color: white;
 }
