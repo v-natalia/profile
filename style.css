@@ -47,11 +47,14 @@ table {
 
 img {
   max-width: 200px;
-  max-height: 250px;
 }
 
 td > p, td > h3 {
   margin-left: 10px;
+}
+
+.fas, .fab {
+  margin-right: 5px;
 }
 /* Cards : simple components */
 .container {
