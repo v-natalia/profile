@@ -141,5 +141,9 @@ td > p, td > h3 {
     width: 200px;
     margin: 20px auto;
   }
+  .fas, .fab {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 }
 
